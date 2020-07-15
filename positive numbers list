@@ -1,0 +1,17 @@
+#write a python program to print aall positive numbers in a range...
+list=[]
+n=int(input())
+for i in range(n):
+    num=int(input())
+    list.append(num)
+    
+print(list)
+for x in list:
+    if x>=0:
+        print(x)
+        
+#input: list1=[12,-7,5,64,-14]
+#output: 12,5,64
+
+#input list2=[12,14,-95,3]
+#output:[12,14,3]
