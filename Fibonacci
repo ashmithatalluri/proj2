@@ -1,0 +1,12 @@
+#write a python program for fibonacci numbers...
+n=int(input("enter the num:"))
+a=0
+b=1
+count=0
+while count < n:
+    print(a)
+    c=a+b
+    a=b
+    b=c
+    count+=1
+#output:0,1,1,2,3,5,8,13,21,34,55,89,144,.....
